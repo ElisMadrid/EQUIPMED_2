@@ -1,0 +1,20 @@
+<body>
+
+  <div class="wrapper">
+      <form (ngSubmit)="onSubmit()" class="tabla">
+        <h1>Inicio de sesión</h1>
+        <div class="input-box">
+          <input type="email" placeholder="Correo electrónico" required [(ngModel)]="email" name="email">
+          <i class='bx bxs-user'></i>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Contraseña" required [(ngModel)]="password" name="password">
+          <i class='bx bxs-lock-alt'></i>
+        </div>
+        <button type="submit" class="btn">Acceso</button>
+      </form>
+      <!-- Botón para volver al inicio -->
+  
+    </div>
+    <button class="btn-go-home" (click)="goToHome()">Volver al inicio</button>
+</body>

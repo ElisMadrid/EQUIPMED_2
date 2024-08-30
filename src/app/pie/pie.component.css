@@ -1,0 +1,13 @@
+.pie {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 4px 20px;
+    font-size: 17.5px;
+    font-weight: bold;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    font-family: sans-serif;
+}

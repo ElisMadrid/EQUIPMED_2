@@ -1,0 +1,24 @@
+.contenido {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+
+.inicio {
+    padding: 35px 10px;
+}
+
+.acerca {
+    padding: 35px 10px;
+}
+
+.servicios {
+    padding: 35px 10px;
+}
+
+.contacto {
+    padding: 35px 10px;
+}
+
+h2 {
+    color: #007BFF;
+}

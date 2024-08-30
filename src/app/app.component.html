@@ -1,0 +1,11 @@
+<div *ngIf="!isLoginRoute()"> <!-- Solo muestra el nav-bar si no estás en la ruta de login -->
+  <app-menu></app-menu>
+</div>
+
+<router-outlet></router-outlet>
+
+<div *ngIf="!isLoginRoute()"> <!-- Solo muestra el pie si no estás en la ruta de login -->
+  <app-home></app-home>
+  <app-pie></app-pie>
+  
+</div>
